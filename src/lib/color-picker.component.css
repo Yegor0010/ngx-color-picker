@@ -155,7 +155,18 @@
 
 .preset-scroll {
   overflow: auto;
-  max-height: 170px;
+  max-height: 100px;
+}
+
+.new-button {
+  margin-top: 5px;
+  width: 70px;
+  background: transparent;
+  border: 1px solid #349793;
+  color: #349793;
+  border-radius: 5px;
+  padding: 3px 0;
+  cursor: pointer;
 }
 
 .color-picker .preset-area .preset-label {

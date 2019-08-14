@@ -117,7 +117,7 @@
   </div>
 
   <div *ngIf="cpOKButton || cpCancelButton" class="button-area">
-    <button *ngIf="cpCancelButton" type="button" class="{{cpCancelButtonClass}}" (click)="onCancelColor($event)">{{cpCancelButtonText}}</button>
+    <button *ngIf="cpCancelButton" type="button" class="new-button" (click)="onCancelColor($event)">{{cpCancelButtonText}}</button>
 
     <button *ngIf="cpOKButton" type="button" class="{{cpOKButtonClass}}" (click)="onAcceptColor($event)">{{cpOKButtonText}}</button>
   </div>
