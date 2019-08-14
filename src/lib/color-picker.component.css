@@ -153,6 +153,11 @@
   padding: 4px 15px;
 }
 
+.preset-scroll {
+  overflow: auto;
+  max-height: 170px;
+}
+
 .color-picker .preset-area .preset-label {
   overflow: hidden;
   width: 100%;
