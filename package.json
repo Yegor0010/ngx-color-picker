@@ -14,7 +14,7 @@
     "extends": "./stylelint.json"
   },
   "scripts": {
-    "clean": "rm -rf dist bundles",
+    "clean": "rmdir /s /q dist bundles",
     "start": "npm run build && npm run bundle",
     "watch": "watch --wait=5 'npm run start' src/",
     "lint": "npm run lint:ts && npm run lint:css",
